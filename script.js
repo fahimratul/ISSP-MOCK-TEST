@@ -43,8 +43,8 @@ function selectquiz(cat){
 
 const startQuiz = () => {
   cat= category.value;
-  if(cat === ""){
-    cat = Math.floor(Math.random() * 11) + 10;
+  if(cat === "0"){
+  cat = Math.floor(Math.random() * 11) + 10;
   }
   selectquiz(cat);
 };
