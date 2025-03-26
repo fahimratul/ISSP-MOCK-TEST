@@ -105,8 +105,9 @@ body{
 
 @media (max-width: 760px) {
     .app {
-        padding: 10px;
-        width: 110%;
+        min-height: 100vh;
+        max-width: 100%;
+        border-radius: 0;
     }
 
     .app h1 {
