@@ -9,13 +9,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ffffff;
+    background: #1f2847;
 }
 .app{  
     position: relative;
     width: 100%;
     max-width: 800px;
-    background: #1f2847;
+    background: #d0d1d6;
     padding: 30px;
     overflow: hidden;
     border-radius: 10px;
