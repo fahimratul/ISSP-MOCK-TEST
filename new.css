@@ -103,7 +103,7 @@ body{
     transition: all 0.3s ease;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 468px) {
     .app {
         min-height: 100vh;
         max-width: 100%;
