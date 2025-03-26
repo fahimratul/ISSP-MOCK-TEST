@@ -11,13 +11,15 @@ body{
     min-height: 100vh;
     background: #1f2847;
 }
-.app{
-    background: #fff;
+.app{  
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    background: #1f2847;
     padding: 30px;
+    overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    width: 90%;
-    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .app h1{
     font-size: 24px;
@@ -103,29 +105,11 @@ body{
     transition: all 0.3s ease;
 }
 
+
 @media (max-width: 468px) {
-    .app {
-        min-height: 100vh;
-        max-width: 100%;
-        border-radius: 0;
+    .app{
+      min-height: 100vh;
+      max-width: 100%;
+      border-radius: 0;
     }
-
-    .app h1 {
-        font-size: 20px;
-        padding-bottom: 20px;
-    }
-
-    .quiz h2 {
-        font-size: 20px;
-    }
-
-    .btn, .correct, .incorrect {
-        padding: 8px;
-        font-size: 20px;
-    }
-
-    #next-btn {
-        width: 100%;
-        padding: 12px;
-    }
-}
+  }
