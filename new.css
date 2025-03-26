@@ -5,11 +5,11 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
-    background: #1f2847;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dddfeb;
 }
 .app{  
     position: relative;
