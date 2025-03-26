@@ -14,7 +14,7 @@ body{
 .app{  
     position: relative;
     width: 100%;
-    max-width: 400px;
+    max-width: 800px;
     background: #1f2847;
     padding: 30px;
     overflow: hidden;
