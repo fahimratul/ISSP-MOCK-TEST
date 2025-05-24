@@ -111,7 +111,7 @@ body {
         margin: 5px;
     }
     #quiz-container {
-        width: 100%;
+        width: 90%;
         padding: 5px;
     }
     #question-nav {
@@ -121,9 +121,11 @@ body {
         width: 20px;
         height: 20px;
         line-height: 36px;
+        font: 1em sans-serif;
     }
     .question {
-        padding: 15px;
+        padding: 8px;
+        font: 1em sans-serif;
     }
     #quiz-title {
         font-size: 15px;
@@ -132,7 +134,7 @@ body {
         font-size: 10px;
     }
     #submit-btn, #back-btn {
-        width: 100%;
+        width: 90%;
         padding: 15px;
         font-size: 12px;
     }
