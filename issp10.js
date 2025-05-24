@@ -328,8 +328,8 @@ function recordMatchAnswer(index, item, value) {
 function submitQuiz() {
     clearInterval(timeLeft);
     let score = 0;
-    let resultsHTML = '<h2>Quiz Results</h2>';
-
+    let resultsHTML = `<h2>Quiz Results</h2>`;
+    
     shuffledQuestions.forEach((q, i) => {
         let userAnswer = answers[i];
         let isCorrect = false;
@@ -354,7 +354,8 @@ function submitQuiz() {
         }
     });
 
-    resultsHTML += `<h3>Score: ${score}/${shuffledQuestions.length} (${Math.round((score / shuffledQuestions.length) * 100)}%)</h3>`;
+    const scoreHTML = `<h3>Score: ${score}/${shuffledQuestions.length} (${Math.round((score / shuffledQuestions.length) * 100)}%)</h3>`;
+    resultsHTML = scoreHTML + resultsHTML;
     resultsHTML += `<button id="back-btn" onclick="goBack()">Back to Quiz</button>`;
     document.getElementById('questions').style.display = 'none';
     document.getElementById('submit-btn').style.display = 'none';
@@ -362,6 +363,10 @@ function submitQuiz() {
     document.getElementById('timer').style.display = 'none';
     document.getElementById('results').innerHTML = resultsHTML;
     document.getElementById('results').style.display = 'block';
+}
+
+function goBack() {
+    window.location.href = 'index.html';
 }
 
 window.onload = initQuiz;
