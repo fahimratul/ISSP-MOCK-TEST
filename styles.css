@@ -113,6 +113,7 @@ body {
     }
     #timer{
         top: 3px;
+        background-color: #ccc;
     }
     #quiz-container {
         width: 90%;
