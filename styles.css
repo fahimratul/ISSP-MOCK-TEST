@@ -114,7 +114,7 @@ body {
     #timer{
         width: 100%;
         text-align: right;
-        top: 3px;
+        top: 0px;
         background-color: #ffffff;
     }
     #quiz-container {
