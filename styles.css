@@ -112,10 +112,7 @@ body {
         margin: 5px;
     }
     #timer{
-        position: relative;
-        top: auto;
-        right: auto;
-        margin-top: 10px;
+        top: 20px;
     }
     #quiz-container {
         width: 90%;
