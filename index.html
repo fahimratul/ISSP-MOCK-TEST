@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Selector</title>
+    <title>ISSP Mock</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         .selector-container {
@@ -79,7 +79,7 @@
 </head>
 <body>
     <div class="selector-container">
-        <h1>Quiz Application</h1>
+        <h1>ISSP MOCK TEST<br>Employment of Air Power </h1>
         <p>Select a quiz to begin:</p>
         <select id="quiz-select">
             <option value="issp10">ISSP -10</option>
@@ -97,41 +97,12 @@
         </select>
         <br>
         <button onclick="startQuiz()">Start Quiz</button>
-        <div id="scores">
-            <h2>Your Scores</h2>
-            <table id="score-table">
-                <thead>
-                    <tr>
-                        <th>Quiz</th>
-                        <th>Score</th>
-                        <th>Date</th>
-                    </tr>
-                </thead>
-                <tbody id="score-body"></tbody>
-            </table>
-        </div>
     </div>
     <script>
         function startQuiz() {
             const quizId = document.getElementById('quiz-select').value;
             window.location.href = `quiz.html?quiz=${quizId}`;
         }
-
-        function displayScores() {
-            const scores = JSON.parse(localStorage.getItem('quizScores') || '[]');
-            const scoreBody = document.getElementById('score-body');
-            scoreBody.innerHTML = '';
-            scores.forEach(score => {
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td>${score.quizName}</td>
-                    <td>${score.score}/${score.total} (${Math.round((score.score / score.total) * 100)}%)</td>
-                    <td>${new Date(score.timestamp).toLocaleString()}</td>
-                `;
-                scoreBody.appendChild(row);
-            });
-        }
-
         window.onload = displayScores;
     </script>
 </body>
