@@ -112,8 +112,10 @@ body {
         margin: 5px;
     }
     #timer{
+        width: 100%;
+        text-align: right;
         top: 3px;
-        background-color: #ccc;
+        background-color: #ffffff;
     }
     #quiz-container {
         width: 90%;
