@@ -121,14 +121,14 @@ body {
         width: 20px;
         height: 20px;
         line-height: 36px;
-        font: .7em sans-serif;
+        font: .5em sans-serif;
     }
     .question {
         padding: 8px;
-        font: .6em sans-serif;
+        font: .7em sans-serif;
     }
     .options{
-        font: .5em;
+        font: .7em;
     }
     #quiz-title {
         font-size: 15px;
