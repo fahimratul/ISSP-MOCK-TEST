@@ -14,6 +14,7 @@ body {
     font-size: 18px;
     color: #d32f2f;
     display: block;
+    z-index: 2;
 }
 #question-nav {
     display: flex;
