@@ -106,3 +106,38 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+    #quiz-container {
+        width: 100%;
+        padding: 10px;
+    }
+    #question-nav {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .nav-btn {
+        width: 40px;
+        height: 40px;
+        line-height: 36px;
+    }
+    .question {
+        padding: 15px;
+    }
+    #quiz-title {
+        font-size: 20px;
+    }
+    #despcription {
+        font-size: 12px;
+    }
+    #submit-btn, #back-btn {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+    }
+    .match-table {
+        grid-template-columns: 1fr;
+    }
+}
