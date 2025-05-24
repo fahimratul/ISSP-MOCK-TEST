@@ -111,6 +111,12 @@ body {
     body {
         margin: 5px;
     }
+    #timer{
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-top: 10px;
+    }
     #quiz-container {
         width: 90%;
         padding: 5px;
@@ -145,4 +151,5 @@ body {
     .match-table {
         grid-template-columns: 1fr;
     }
+    
 }
