@@ -355,14 +355,7 @@ function submitQuiz() {
     });
 
     const scoreHTML = `<h3>Score: ${score}/${shuffledQuestions.length} (${Math.round((score / shuffledQuestions.length) * 100)}%)</h3>`;
-    const pass=``;
-    if(score>15){
-        pass=`  PASSED`;
-    }
-    else{
-        pass= `FAILED, Try once more!!`
-    }
-    resultsHTML = scoreHTML+pass + resultsHTML;
+    resultsHTML = scoreHTML + resultsHTML;
     resultsHTML += `<button id="back-btn" onclick="goBack()">Back to Quiz</button>`;
     document.getElementById('questions').style.display = 'none';
     document.getElementById('submit-btn').style.display = 'none';
