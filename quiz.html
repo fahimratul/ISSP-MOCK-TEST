@@ -25,21 +25,55 @@
       const urlParams = new URLSearchParams(window.location.search);
       const quizId = urlParams.get('quiz') || 'airPower';
             let quizName;
-      if (quizId === 'issp10') {
-          quizName = 'Employment of Air Power';
-      } else {
-          quizName = 'Military Strategy Basics';
-      }
       const script = document.createElement('script');
     
       if (quizId === 'issp10') {
         script.src = 'issp10.js';
+        quizName = 'ISSP-10';
       }
-      else if (quizId === 'militaryStrategy') {
-        script.src = 'militaryStrategyQuizData.js';
+      else if (quizId === 'issp11') {
+        script.src = 'issp11.js';
+        quizName = 'ISSP-11';
+      }
+      else if (quizId === 'issp12') {
+        script.src = 'issp12.js';
+        quizName = 'ISSP-12';
+      }
+      else if (quizId === 'issp13') {
+        script.src = 'issp13.js';
+        quizName = 'ISSP-13';
+      }
+      else if (quizId === 'issp14') {
+        script.src = 'issp14.js';
+        quizName = 'ISSP-14';
+      }
+      else if (quizId === 'issp15') {
+        script.src = 'issp15.js';
+        quizName = 'ISSP-15';
+      }
+      else if (quizId === 'issp16') {
+        script.src = 'issp16.js';
+        quizName = 'ISSP-16';
+      }
+      else if (quizId === 'issp17') {
+        script.src = 'issp17.js';
+        quizName = 'ISSP-17';
+      }
+      else if (quizId === 'issp18') {
+        script.src = 'issp18.js';
+        quizName = 'ISSP-18';
+      }
+      else if (quizId === 'issp19') {
+        script.src = 'issp19.js';
+        quizName = 'ISSP-19';
+      }
+      else if (quizId === 'issp20') {
+        script.src = 'issp20.js';
+        quizName = 'ISSP-20';
       }
       else {
-        script.src = 'airPowerQuizData.js'; // Default
+        script.src = 'issp10.js'; // Default
+        quizName = 'ISSP-10';
       }
       document.getElementById('quiz-title').textContent = quizName;
       document.body.appendChild(script);

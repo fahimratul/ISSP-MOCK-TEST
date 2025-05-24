@@ -108,34 +108,33 @@ body {
 }
 @media (max-width: 600px) {
     body {
-        margin: 10px;
+        margin: 5px;
     }
     #quiz-container {
         width: 100%;
-        padding: 10px;
+        padding: 5px;
     }
     #question-nav {
-        flex-direction: column;
-        gap: 5px;
+        gap: 2px;
     }
     .nav-btn {
-        width: 40px;
-        height: 40px;
+        width: 20px;
+        height: 20px;
         line-height: 36px;
     }
     .question {
         padding: 15px;
     }
     #quiz-title {
-        font-size: 20px;
+        font-size: 15px;
     }
     #despcription {
-        font-size: 12px;
+        font-size: 10px;
     }
     #submit-btn, #back-btn {
         width: 100%;
         padding: 15px;
-        font-size: 16px;
+        font-size: 12px;
     }
     .match-table {
         grid-template-columns: 1fr;
