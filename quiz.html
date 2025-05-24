@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <div id="quiz-container">
+        <div id="timer">Time Left: 30:00</div>
+        <h1 id="quiz-title"></h1>
+        <h2 id ="despcription">
+          END OF PHASE EXAMINATION (EPE)<br>
+          Subject: Employment of Air Power
+        </h2>
+        <div id="question-nav"></div>
+        <div id="questions"></div>
+        <button id="submit-btn" onclick="submitQuiz()">Submit Quiz</button>
+        <div id="results"></div>
+    </div>
+  
+  <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const quizId = urlParams.get('quiz') || 'airPower';
+            let quizName;
+      if (quizId === 'issp10') {
+          quizName = 'Employment of Air Power';
+      } else {
+          quizName = 'Military Strategy Basics';
+      }
+      const script = document.createElement('script');
+    
+      if (quizId === 'issp10') {
+        script.src = 'issp10.js';
+      }
+      else if (quizId === 'militaryStrategy') {
+        script.src = 'militaryStrategyQuizData.js';
+      }
+      else {
+        script.src = 'airPowerQuizData.js'; // Default
+      }
+      document.getElementById('quiz-title').textContent = quizName;
+      document.body.appendChild(script);
+    </script>
+</body>
+</html>
