@@ -112,13 +112,14 @@ body {
         margin: 5px;
     }
     #timer{
-        top: 30px;
+        top: 3px;
     }
     #quiz-container {
         width: 90%;
         padding: 5px;
     }
     #question-nav {
+        top: 20px;
         gap: 2px;
     }
     .nav-btn {
