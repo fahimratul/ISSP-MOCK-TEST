@@ -118,23 +118,23 @@ body {
         gap: 2px;
     }
     .nav-btn {
-        width: 20px;
-        height: 20px;
-        line-height: 36px;
+        width: 30px;
+        height: 30px;
+        line-height: 40px;
         font: .5em sans-serif;
     }
     .question {
         padding: 8px;
-        font: .7em sans-serif;
+        font: .8em sans-serif;
     }
     .options{
-        font: .7em;
+        font: .8em;
     }
     #quiz-title {
-        font-size: 15px;
+        font-size: .9em;
     }
     #despcription {
-        font-size: 10px;
+        font-size: .8em;
     }
     #submit-btn, #back-btn {
         width: 90%;
