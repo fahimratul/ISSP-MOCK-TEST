@@ -128,7 +128,7 @@ const quizData = [
     { 
         type: 'tf', 
         question: 'Plans for MOOTW are not prepared in a similar manner as plans for war.', 
-        answer: 'False', 
+        answer: 'True', 
         explanation: 'Military Operations Other Than War (MOOTW) plans are often prepared similarly to war plans, with adaptations for specific objectives.' 
     },
     { 
