@@ -20,7 +20,7 @@ const quizData = [
         type: 'mcq',
         question: 'Which is not a primary strength of Air Power?',
         options: ['Reach', 'Flexibility', 'Speed', 'Height'],
-        answer: 'Flecibility',
+        answer: 'Flexibility',
         explanation: ''
     },
     {
@@ -200,7 +200,7 @@ const quizData = [
     {
         type: 'mcq',
         question: '____ doctrine states the most fundamental and enduring principles which guide the use of air forces in action.',
-        options: ['Strategic', 'Operational', 'Tactical',' Military'],
+        options: ['Strategic', 'Operational', 'Tactical','Military'],
         answer: 'Military',
         explanation: 'Fundamental doctrine provides the core principles guiding air force operations.'
     },
