@@ -7,7 +7,7 @@ const quizData = [
         question: 'The characteristics of war is:',
         options: ['War is an instrument of Theory', 'War is an act of Peace', 'War is the Province of Uncertainty', 'Leadership is optional in War'],
         answer: 'War is the Province of Uncertainty',
-        explanation: 'War is characterized by uncertainty due to its complex and unpredictable nature, as described in military theory.'
+        explanation: 'Characteristics of war is - war is an instrument of polucy , war is an act of violance, war is province of uncertainty, war is a clash of opposing wills, war is of the people , leader ship is crucial in war'
     },
     {
         type: 'mcq',
@@ -20,15 +20,15 @@ const quizData = [
         type: 'mcq',
         question: 'Which is not a primary strength of Air Power?',
         options: ['Reach', 'Flexibility', 'Speed', 'Height'],
-        answer: 'Height',
-        explanation: 'While height is a characteristic of air power, its primary strengths are reach, flexibility, and speed, which enable rapid and versatile operations.'
+        answer: 'Flecibility',
+        explanation: ''
     },
     {
         type: 'mcq',
         question: 'Which is not a principle of war?',
         options: ['Flexibility', 'Economy of effort', 'Violence', 'Surprise'],
         answer: 'Violence',
-        explanation: 'Principles of war include economy of effort, surprise, and others, but violence is not a recognized principle; it is an inherent aspect of war.'
+        explanation: 'ten Principles of war include Selection and Miantenance of the aim,maintence of morale, offensive action , concentration of force,economy of effort , security , surprise, coperation , felexibilty and sustainabilty.  .'
     },
     {
         type: 'mcq',
@@ -42,21 +42,21 @@ const quizData = [
         question: 'What is the process of translating the allocation into orders, and passing those orders to the units involved?',
         options: ['Allotment', 'Apportionment', 'Tasking', 'Squadron mission plan'],
         answer: 'Tasking',
-        explanation: 'Tasking involves translating allocations into specific orders for units to execute missions.'
+        explanation: 'Tasking is the process of translating the allocation into orders, and passing those orders to the units for carrying out air operation.'
     },
     {
         type: 'mcq',
         question: 'Which is not an OCA operation?',
         options: ['SEAD', 'Fighter Sweep', 'Air to air refueling', 'Air Field Attack'],
         answer: 'Air to air refueling',
-        explanation: 'Offensive Counter-Air (OCA) operations include SEAD, fighter sweeps, and airfield attacks, but air-to-air refueling is a support function, not an OCA operation.'
+        explanation: 'Offensive Counter-Air (OCA) operations include SEAD, fighter sweeps,surface attack , fighter escort.'
     },
     {
         type: 'mcq',
         question: 'Air to air refueling is divided into which two roles?',
         options: ['Towline & Trail', 'Area refueling & Point Refueling', 'Peacetime and Wartime', 'Entry point & Exit point'],
-        answer: 'Area refueling & Point Refueling',
-        explanation: 'Air-to-air refueling is categorized into area refueling (conducted in a designated area) and point refueling (at a specific location).'
+        answer: 'Towline & Trail',
+        explanation: ''
     },
     {
         type: 'mcq',
@@ -70,7 +70,7 @@ const quizData = [
         question: 'Which is not a type of MOOTW?',
         options: ['Arms Control', 'Combating Terrorism', 'Humanitarian Assistance', 'EW Ops'],
         answer: 'EW Ops',
-        explanation: 'Military Operations Other Than War (MOOTW) include arms control, combating terrorism, and humanitarian assistance, but electronic warfare (EW) operations are a tactical function, not a type of MOOTW.'
+        explanation: 'Military Operations Other Than War (MOOTW) include arms control, combating terrorism, Enforcement of sanctions, enforcing exclusion zones,ensuring fredom of navigation and overflight, humaniterian assitance,millitary support to civil authorities,nation assistance ,peace operation ,protection of shipping,recovry operations , show of force operations, strike and raid , support to insurgency.'
     },
     // True/False Questions (11–20)
     {
@@ -83,13 +83,13 @@ const quizData = [
         type: 'tf',
         question: 'Combined doctrine describes the best way to integrate and employ air forces with land and naval forces in combined action.',
         answer: 'True',
-        explanation: 'Combined doctrine outlines the integration of air, land, and naval forces for coordinated operations.'
+        explanation: 'Combined (ie alliance) doctrine in relation to air power applies air power doctrine to combined operations and describes the best way to integrate and deploy air force with the forces of the allies in coalition warfare. '
     },
     {
         type: 'tf',
         question: 'The human factor is the most decisive in conflict.',
         answer: 'True',
-        explanation: 'The human factor, including leadership and morale, is critical in determining the outcome of conflicts.'
+        explanation: ''
     },
     {
         type: 'tf',
@@ -101,19 +101,19 @@ const quizData = [
         type: 'tf',
         question: 'Air Superiority means the enemy air force is incapable of effective interference.',
         answer: 'True',
-        explanation: 'Air superiority is achieved when the enemy’s air force cannot effectively interfere with friendly operations.'
+        explanation: 'Air superiority is defined as that degree of dominance in the air battle of one force over another which permits the conduct of operations by the former and its related land, sea and air forces at a given time and place without prohibitive interference by the opposing force'
     },
     {
         type: 'tf',
         question: 'Allocation is the temporary assignment of air forces between subordinate commands.',
-        answer: 'True',
+        answer: 'False',
         explanation: 'Allocation involves the temporary distribution of air forces to subordinate commands for specific missions.'
     },
     {
         type: 'tf',
         question: 'Combat-support air operations are defined as the major nonflying activities needed to support air operations.',
         answer: 'True',
-        explanation: 'Combat-support air operations include nonflying activities like logistics and maintenance that support air missions.'
+        explanation: 'Allocation is the translation of the apportionment into total numbers of sorties by aircraft type available for each operation/task.'
     },
     {
         type: 'tf',
@@ -125,7 +125,7 @@ const quizData = [
         type: 'tf',
         question: 'BAI is defined as air action against hostile land targets in a position directly to affect friendly forces, which requires joint planning and coordination.',
         answer: 'True',
-        explanation: 'Battlefield Air Interdiction (BAI) targets enemy forces that directly threaten friendly forces, requiring joint coordination.'
+        explanation: ''
     },
     {
         type: 'tf',
@@ -139,7 +139,7 @@ const quizData = [
         question: 'The ____ of aircraft allows rapid projection of military power.',
         options: ['Speed', 'Reach', 'Flexibility', 'Height'],
         answer: 'Speed',
-        explanation: 'The speed of aircraft enables rapid projection of military power over long distances.'
+        explanation: 'Speed allows the rapid projection of military power and permits missions to be completed quickly;'
     },
     {
         type: 'mcq',
@@ -179,29 +179,29 @@ const quizData = [
     {
         type: 'mcq',
         question: 'Political objectives drive ____ at every level, from strategic to tactical.',
-        options: ['Military operations', 'Air campaigns', 'War planning', 'Doctrine development'],
-        answer: 'Military operations',
-        explanation: 'Political objectives guide military operations across all levels of warfare.'
+        options: ['MOOTW', 'Air campaigns', 'War planning', 'Doctrine development'],
+        answer: 'MOOTW',
+        explanation: ''
     },
     {
         type: 'mcq',
         question: 'The objective of ____ is to direct every military operation toward a clearly defined, decisive, and attainable objective.',
         options: ['Strategy', 'Planning', 'Doctrine', 'Operations'],
         answer: 'Strategy',
-        explanation: 'Strategy aims to direct military operations toward clear, decisive, and achievable objectives.'
+        explanation: 'Not Sure.'
     },
     {
         type: 'mcq',
         question: 'Success in war is not measured by the number of casualties inflicted or territory occupied, but by the ____ of political objectives.',
         options: ['Achievement', 'Planning', 'Execution', 'Coordination'],
         answer: 'Achievement',
-        explanation: 'Success in war is measured by the achievement of political objectives, not just tactical gains.'
+        explanation: ' '
     },
     {
         type: 'mcq',
         question: '____ doctrine states the most fundamental and enduring principles which guide the use of air forces in action.',
-        options: ['Strategic', 'Operational', 'Tactical', 'Fundamental'],
-        answer: 'Fundamental',
+        options: ['Strategic', 'Operational', 'Tactical',' Military'],
+        answer: 'Military',
         explanation: 'Fundamental doctrine provides the core principles guiding air force operations.'
     },
     // Matching Questions (31–40)
