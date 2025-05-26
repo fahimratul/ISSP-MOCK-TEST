@@ -192,7 +192,7 @@ const quizData = [
         type: 'mcq',
         question: '____ is a temporary change of assignment of Air Forces between subordinate Commands.',
         options: ['Allocation', 'Apportionment', 'Tasking', 'Allotment'],
-        answer: 'Allocation',
+        answer: 'Allotment',
         explanation: 'the protracted instability in Chattragram Hill Tracts (CHT) can be regarded as a form of insurgency.'
     },
     {
