@@ -4,22 +4,22 @@ const quizData = [
         type: 'mcq',
         question: 'Vietnam war can be considered as what type of war in Vietnamese perspective?',
         options: ['General War', 'Total War', 'Limited War', 'Regional War'],
-        answer: 'Limited War',
+        answer: 'Total War',
         explanation: 'From the Vietnamese perspective, the Vietnam War was a limited war, focused on specific political objectives within a defined region, rather than a total or general war involving all national resources.'
     },
     {
         type: 'mcq',
-        question: 'Which of the following is a key principle of war?',
+        question: 'Which of the following is not a key principle of war?',
         options: ['Selection and maintenance of aim', 'Maintenance of Morale', 'Economy of effort', 'Use of arms'],
-        answer: 'Selection and maintenance of aim',
+        answer: 'Use of arms',
         explanation: 'Selection and maintenance of aim is a key principle of war, ensuring focus on a clear objective. While morale and economy of effort are also principles, the question implies a single correct choice.'
     },
     {
         type: 'mcq',
         question: 'Which of the following is the highest-level body in dealing with defence matters?',
         options: ['NCSA', 'DCC', 'MOD', 'AFD'],
-        answer: 'MOD',
-        explanation: 'The Ministry of Defence (MOD) is typically the highest-level body responsible for defense matters in a nation.'
+        answer: 'DCC',
+        explanation: 'Defence Committee of the Cabinet is typically the highest-level body responsible for defense matters in a nation.'
     },
     {
         type: 'mcq',
@@ -39,7 +39,7 @@ const quizData = [
         type: 'mcq',
         question: 'Which of the following is the moral component of air power?',
         options: ['Doctrine', 'Strategy', 'Personnel', 'Leadership'],
-        answer: 'Leadership',
+        answer: 'Doctrine',
         explanation: 'Leadership is the moral component of air power, as it inspires and motivates personnel, shaping morale and commitment.'
     },
     {
@@ -115,13 +115,13 @@ const quizData = [
     {
         type: 'tf',
         question: 'The degree of dominance in a favorable air situation is higher than that in local air superiority for an area of operation.',
-        answer: 'False',
+        answer: 'True',
         explanation: 'Local air superiority implies a higher degree of dominance in a specific area compared to a favorable air situation, which is less dominant.'
     },
     {
         type: 'tf',
         question: 'Allocation is the temporary assignment of air forces between subordinate commands.',
-        answer: 'True',
+        answer: 'False',
         explanation: 'Allocation involves the temporary distribution of air forces to subordinate commands for specific missions.'
     },
     {
